@@ -1,6 +1,3 @@
-Absolutely! Here's the **complete README.md** in Markdown format, fully formatted and ready to drop into your repository:
-
-````markdown
 # 🖼️ Lightbox Viewer
 
 ## 💡 Project Description
@@ -48,6 +45,7 @@ This project reinforces several core front-end development concepts:
 ```bash
 git clone https://github.com/PrinceLemayian/Lightbox-viewer.git
 ```
+
 ````
 
 2. **Navigate to the project directory:**
@@ -84,3 +82,4 @@ Lightbox-viewer/
 ## ✍️ Author
 
 - **Prince Lemayian**
+````
