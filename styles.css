@@ -1,0 +1,60 @@
+*,
+*::before,
+*:: after {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gallery {
+  display: flex;
+  gap: 30px;
+}
+
+.lightbox {
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#close-btn {
+  height: 24px;
+  top: 20px;
+  right: 40px;
+  font-size: 50px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+#lightbox-image {
+  width: 600px;
+  height: 400px;
+}
